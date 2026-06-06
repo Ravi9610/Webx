@@ -1,0 +1,29 @@
+:root {
+  --win11-accent: #0078d4;
+  --win11-accent-hover: #106ebe;
+  --win11-bg-primary: rgba(32, 32, 32, 0.85);
+  --win11-bg-secondary: rgba(42, 42, 42, 0.95);
+  --win11-text-primary: #ffffff;
+  --win11-text-secondary: #d1d1d1;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.25);
+  --transition-fast: 0.1s ease;
+  --transition-normal: 0.2s ease;
+}
+
+* {
+  user-select: none;
+}
+
+input, textarea {
+  user-select: text;
+}
+
+.window-draggable {
+  -webkit-app-region: drag;
+}
+
+.window-non-draggable {
+  -webkit-app-region: no-drag;
+}
